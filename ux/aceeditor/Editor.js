@@ -56,6 +56,7 @@ Ext.define('Ext.ux.aceeditor.Editor', {
         me.editor.setShowPrintMargin(me.printMargin);
         me.editor.setPrintMarginColumn(me.printMarginColumn);
         me.editor.setHighlightActiveLine(me.highlightActiveLine);
+        me.editor.setOptions(me.aceOptions);
         me.getSession().setTabSize(me.tabSize);
         me.getSession().setUseSoftTabs(me.useSoftTabs);
         me.setValue(me.sourceCode);
